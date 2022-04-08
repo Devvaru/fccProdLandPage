@@ -2,8 +2,8 @@
 #1: My product landing page should have a header element with a corresponding id="header".
 #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
 #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
-
 #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+
 #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
 #6: I can watch an embedded product video with id="video".
 #7: My landing page has a form element with a corresponding id="form".
@@ -30,25 +30,49 @@
     <header id="header">
         <img src="images/The Coffee House.png" id="header-img">
         <nav id="nav-bar">
-            <h2><a class="nav-link" href="featured-drinks">Featured Drinks</a></h2>
-            <h2><a class="nav-link" href="process">Process</a></h2>
-            <h2><a class="nav-link" href="newsletter">Newsletter</a></h2>
+            <h2><a class="nav-link" href="#featured-drinks">Featured Drinks</a></h2>
+            <h2><a class="nav-link" href="#process">Process</a></h2>
+            <h2><a class="nav-link" href="#newsletter">Newsletter</a></h2>
         </nav>
     </header>
+    <div id="main">
+        <div id="section1">
+            <h1 id="featured-drinks">Featured Drinks</h1>
+            <div id="img-row">
+                <div class="drink-items">
+                    <img src="images/macchiato.jpg" id="macchiato">
+                    <label for="macchiato" class="drink-label">Macchiato</label>
+                </div>
+                <div class="drink-items">
+                    <img src="images/cappuccino.jpg" id="cappuccino">
+                    <label for="cappuccino" class="drink-label">Cappuccino</label>
+                </div>
+                <div class="drink-items">
+                    <img src="images/iced-latte.jpg" id="iced-latte">
+                    <label for="iced-latte" class="drink-label">Iced Latte</label>
+                </div>
+                <div class="drink-items">
+                    <img src="images/espresso.jpg" id="espresso">
+                    <label for="espresso" class="drink-label">Espresso</label>
+                </div>
+           
+
+
+
+            </div>
+        </div>
+
+
+        <div id="section2">
+            <h1 id="process">Our Process</h1>
+        </div>
 
 
 
 
 
-
-
-
-
-
-
-
-
+        
+    </div>
 
 </body>
-
 </html>

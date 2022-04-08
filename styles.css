@@ -30,11 +30,47 @@ header {
 }
 
 .nav-link:hover {
-    color: #663817;
+    color: #6A360D;
 }
 
 #header-img {
     max-width: 350px;
     height: auto;
     align-self: center;
+}
+
+#featured-drinks, #process {
+    text-transform: uppercase;
+    text-align: center;
+    color: #6A360D;
+    padding: 0px 0px 50px 0px;
+}
+
+#section1, #section2 {
+    padding: 50px 0px 50px 0px;
+}
+
+#img-row {
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    column-gap: 15px;
+}
+
+#macchiato, #cappuccino, #iced-latte, #espresso {
+    max-width: 300px;
+}
+
+.drink-items {
+    display: flex;
+    flex-flow: column;
+}
+
+.drink-label {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #8E5227;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
 }
