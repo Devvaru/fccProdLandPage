@@ -83,15 +83,17 @@ header {
 
 footer {
     overflow: hidden;
-    height: 300px;
     width: 100%;
     position: bottom;
-
 }
  
 .footer-img {
-    position: relative;
-    bottom: 80%;
-    /* display: block; */
-
+    flex: 2 0 0;
+    min-width: 100%;
+    min-height: 100%; 
+    position: fixed;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center center;
 }
