@@ -81,13 +81,22 @@ header {
     padding-top: 10px;
 }
 
+#video {
+    display: flex;
+    justify-content: center;
+}
+
 footer {
-    overflow: hidden;
     width: 100%;
-    position: bottom;
+    height: 250px;
+    position: static;
+    background-image: url("images/footer-img2.jpg");
+    background-size: 100% auto;
+    margin: 0px;
+    
 }
  
-.footer-img {
+/* .footer-img {
     flex: 2 0 0;
     min-width: 100%;
     min-height: 100%; 
@@ -96,4 +105,12 @@ footer {
     height: 250px;
     object-fit: cover;
     object-position: center center;
+    z-index: 1;
 }
+*/
+.footer-overlay {
+    background: rgba(130, 114, 96, 0.56);
+    overflow: hidden;
+    height: 100%;
+    /* z-index: 2; */
+} 
