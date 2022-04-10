@@ -5,11 +5,11 @@
 #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
 #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
 #6: I can watch an embedded product video with id="video".
-
 #7: My landing page has a form element with a corresponding id="form".
 #8: Within the form, there is an input field with id="email" where I can enter an email address.
 #9: The #email input field should have placeholder text to let the user know what the field is for.
 #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
+
 #11: Within the form, there is a submit input with a corresponding id="submit".
 #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).
 #13: The navbar should always be at the top of the viewport.
@@ -65,15 +65,26 @@
             </div>
         </div>
       
-
-
-
-        
     </div>
 
     <footer>
         <div class="footer-overlay">
-            <!-- <img src="images/footer-img.jpg" class="footer-img" alt=""> -->
+            <div id="signup">
+                <h3>Sign up to get our weekly newsletter!</h3>
+                <form id="form">
+                    <div class="name-form">
+                        <label for="name" id="name-label">Name</label>
+                        <input type="text" name="name" placeholder="Name" id="name" required>
+                    </div>
+
+                    <div class="email-form">
+                        <label for="email" id="email-label">Email</label>
+                        <input type="email" name="email" placeholder="Email" id="email" required>
+                    </div>
+
+                    <button type="submit" id="submit">Submit</button>
+            </form>
+            </div>
         </div>
     </footer>
 </body>
