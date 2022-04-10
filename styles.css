@@ -89,7 +89,7 @@ header {
     padding-top: 10px;
 }
 
-#video {
+#video-section {
     display: flex;
     justify-content: center;
 }
@@ -117,7 +117,7 @@ footer {
 }
 */
 .footer-overlay {
-    background: rgba(130, 114, 96, 0.56);
+    background: rgba(130, 114, 96, 0.65);
     overflow: hidden;
     height: 100%;
     /* z-index: 2; */
@@ -126,14 +126,18 @@ footer {
     justify-content: center;
 } 
 
-#signup {
+#newsletter {
     display: flex;
     flex-flow: row;
     column-gap: 50px;
+    align-items: center;
+}
+
+#signup-text {
+    
 }
 
 #form {
-
     display: flex;
     flex-flow: column;
     row-gap: 10px;
@@ -153,9 +157,29 @@ footer {
     height: 40px;
     border: 0px;
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 
 #name-label, #email-label {
     font-weight: 700;
     font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#submit {
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    border: 0px;
+    align-items: center;
+    transition-duration: 0.4s;
+
+}
+
+#submit:hover {
+    background-color: rgba(255, 235, 206);
+    color: #6A360D;
+
 }
