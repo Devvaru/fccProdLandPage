@@ -199,15 +199,37 @@ footer {
     align-items: center;
 }
 
+@media (max-width: 1201px) {
+    #newsletter  {
+    display: flex;
+    flex-flow: column;
+    column-gap: 50px;
+    align-items: center;
+    padding: 25px 25px 50px 25px;
+    }
+}
+
 /* #signup-text {
     
 } */
+
+@media (max-width: 1201px) {
+    #signup-text  {
+        text-align: center;
+    }
+}
 
 #form {
     display: flex;
     flex-flow: column;
     row-gap: 10px;
     width: 50%;
+}
+
+@media (max-width: 1201px) {
+    #form {
+        width: 70%;
+    }
 }
 
 .name-form, .email-form {
