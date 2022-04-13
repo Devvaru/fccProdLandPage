@@ -24,6 +24,16 @@ header {
     top: 0;
 }
 
+@media (max-width: 1201px) {
+    header {
+        flex-flow: column;
+        max-width: 100%;
+        padding: 10px 10px 10px 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
 #nav-bar {
     display: flex;
     flex-flow: row;
@@ -31,12 +41,27 @@ header {
     justify-content: flex-end;
 }
 
+@media (max-width: 1201px) {
+    #nav-bar {
+        display: flex;
+        flex-flow: row;
+        column-gap: 10px;
+        justify-content: space-between;
+    }
+}
 .nav-link {
     color: #8E5227;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
 }
+
+@media (max-width: 1201px) {
+    .nav-link {
+    font-size: 20px; 
+    }
+}
+
 
 .nav-link:hover {
     color: #6A360D;
@@ -46,6 +71,13 @@ header {
     max-width: 350px;
     height: auto;
     align-self: center;
+}
+
+@media (max-width: 1201px) {
+    #header-img {
+        flex-flow: row wrap;
+        max-width: 180px; 
+    }
 }
 
 #featured-drinks, #process {
@@ -133,9 +165,9 @@ footer {
     align-items: center;
 }
 
-#signup-text {
+/* #signup-text {
     
-}
+} */
 
 #form {
     display: flex;
@@ -175,7 +207,6 @@ footer {
     border: 0px;
     align-items: center;
     transition-duration: 0.4s;
-
 }
 
 #submit:hover {
