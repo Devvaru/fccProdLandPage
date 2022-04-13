@@ -88,12 +88,31 @@ header {
     margin: 0px;
 }
 
+@media (max-width: 1201px) {
+    #featured-drinks, #process {
+    padding: 0px 0px 25px 0px;
+    margin: 0px;
+    }
+}
+
 #section1 {
     padding: 100px 0px 50px 0px;
 }
 
 #section2 {
     padding: 50px 0px 100px 0px;
+}
+
+@media (max-width: 1201px) {
+    #section1 {
+        padding: 25px 0px 25px 0px;
+    }
+}
+
+@media (max-width: 1201px) {
+    #section2 {
+        padding: 25px 0px 50px 0px;
+    }
 }
 
 #img-row {
@@ -103,8 +122,23 @@ header {
     column-gap: 15px;
 }
 
+@media (max-width: 1201px) {
+    #img-row  {
+    display: flex;
+    flex-flow: wrap;
+    gap: 15px;
+    }
+}
+
+
 #macchiato, #cappuccino, #iced-latte, #espresso {
     max-width: 300px;
+}
+
+@media (max-width: 1201px) {
+    #macchiato, #cappuccino, #iced-latte, #espresso  {
+        max-width: 200px;
+    }
 }
 
 .drink-items {
