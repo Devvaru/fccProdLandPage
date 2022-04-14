@@ -201,11 +201,11 @@ footer {
 
 @media (max-width: 1201px) {
     #newsletter  {
-    display: flex;
-    flex-flow: column;
-    column-gap: 50px;
-    align-items: center;
-    padding: 25px 25px 50px 25px;
+        display: flex;
+        flex-flow: column;
+        column-gap: 50px;
+        align-items: center;
+        padding: 25px 25px 50px 25px;
     }
 }
 
