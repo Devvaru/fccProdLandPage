@@ -1,2 +1,2 @@
 # fccProdLandPage
-https://syeraru.github.io/fccProdLandPage/
+https://devvaru.github.io/fccProdLandPage/
